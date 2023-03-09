@@ -10,6 +10,10 @@
 <body>
     <h1>Imagens dinâmicas</h1>
     <picture>
+        <!-- 
+            Eu deletei o parametro 'type: image.png' e deu certo.
+            Agora quando a tela for superior a 1050px vai aparecer a imagem escrito '1000px', e quando for inferiro vai aparecer '700px'
+        -->
         <source media="(max-width:1050px)" srcset="imagens/imagem-m.png">
         <img src="imagens/imagem-g.png" alt="img g">
     </picture>
